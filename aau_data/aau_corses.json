@@ -1,0 +1,85 @@
+{
+	"bachelor": [{
+			"id": "620.220",
+			"title": "Einführung in die strukturierte und objektbasierte Programmierung",
+			"type": "VO",
+			"lecturer": "36866626",
+			"ECTS" : "2",
+			"department" : "ITEC"
+		},
+		{
+			"id": "621.900",
+			"title": "Web-Technologien",
+			"type": "VO",
+			"lecturer": "772243224",
+			"ECTS" : "2",
+			"department" : "ISYS"
+		},
+		{
+			"id": "620.050",
+			"title": "Datenbanken",
+			"type": "VO",
+			"lecturer": "772243224",
+			"ECTS" : "2",
+			"department" : "ISYS"
+		},
+		{
+			"id": "620.055",
+			"title": "Datenbanktechnologie",
+			"type": "UE",
+			"lecturer": "772243224",
+			"ECTS" : "2",
+			"department" : "ISYS"
+		}
+	],
+
+	"master": [{
+			"id": "623.254",
+			"title": "Current Topics in Information Systems Engineering",
+			"type": "VC",
+			"lecturer": "772243224",
+			"department" : "AICS",
+			"ECTS" : "3"
+		},
+		{
+			"id": "624.002",
+			"title": "Privatissimum für Diplomand/inn/en und Dissertant/inn/en",
+			"type": "PV",
+			"lecturer": "772243224",
+			"department" : "ISYS",
+			"ECTS" : "1"
+		},
+		{
+			"id": "623.250",
+			"title": "Interoperability",
+			"type": "VC",
+			"lecturer": "772243224",
+			"department" : "ISYS",
+			"ECTS" : "4"
+		},
+		{
+			"id": "623.500",
+			"title": "Data Engineering",
+			"type": "VC",
+			"lecturer": "772243224",
+			"department" : "ISYS",
+			"ECTS" : "4"
+		},
+		{
+			"id": "623.502",
+			"title": "Distributed Computing Infrastructures",
+			"type": "VC",
+			"lecturer": "2077308266",
+			"department" : "ITEC",
+			"ECTS" : "4"
+		},
+		{
+			"id": "623.252",
+			"title": "Process Engineering",
+			"type": "VC",
+			"lecturer": "834107405",
+			"department" : "ISYS",
+			"ECTS" : "2"
+		}
+	]
+}

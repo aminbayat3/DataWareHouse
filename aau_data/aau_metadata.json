@@ -1,0 +1,53 @@
+{
+	"id": "ATEOS1000019137",
+	"name": "Universität Klagenfurt",
+	"state": "Carinthia",
+	"city": "Klagenfurt am Wörthersee",
+	"street": "Universitätsstraße 65-67",
+	"zip": "9020",
+	"bachelor_study_plans": [{
+			"id": "511",
+			"name": "Angewandte Informatik",
+			"branch": "Technical Studies"
+		},
+		{
+			"id": "522",
+			"name": "Wirtschaftsinformatik",
+			"branch": "Economoics"
+		}
+	],
+	"master_study_plans": [{
+			"id": "922",
+			"name": "Wirtschaftsinformatik",
+			"type": "Master",
+			"branch": "Economics"
+		},
+		{
+			"id": "911",
+			"name": "Angewandte Informatik",
+			"type": "Master",
+			"branch": "Technical Studies"
+		}
+	],
+	"lecturers": [{
+			"id": "36866626",
+			"name": "Assoc.Prof. Dipl.-Ing. Dr. Klaus Schöffmann",
+			"department": "ITEC"
+		},
+		{
+			"id": "2077308266",
+			"name": "Postdoc-Ass. Dr. Dragi Kimovski",
+			"department": "ITEC"
+		},
+		{
+			"id": "834107405",
+			"name": "O.Univ.-Prof. Dipl.-Ing. Dr. Johann Eder ",
+			"department": "ISYS"
+		},
+		{
+			"id": "772243224",
+			"name": "Assoc.-Prof. DI. Dr. Julius Köpke",
+			"department": "ISYS"
+		}
+	]
+}

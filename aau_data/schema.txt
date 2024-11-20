@@ -1,0 +1,47 @@
+CREATE TABLE aau_dwh.Student(
+	Matno TEXT PRIMARY KEY,
+	Name TEXT
+);
+
+CREATE TABLE aau_dwh.Course (
+	CourseID TEXT PRIMARY KEY,
+	Title TEXT,
+	Type TEXT,
+	ECTS INT,
+	Department TEXT,
+	University TEXT
+);
+
+CREATE TABLE aau_dwh.Lecturer (
+	LecturerID TEXT PRIMARY KEY, 
+	Name TEXT,
+	Rank TEXT,
+	Title TEXT,
+	Department TEXT
+);
+
+CREATE TABLE aau_dwh.StudyPlan (
+	StudyPlanID TEXT PRIMARY KEY,
+	Title TEXT,
+	Degree Text,
+	Branch TEXT
+);
+
+CREATE TABLE aau_dwh.Time (
+	TimeID SERIAL PRIMARY KEY,
+	ExamDate DATE UNIQUE,
+	Day INT,
+	Month INT,
+	Semester TEXT,
+	Year INT
+);
+
+CREATE TABLE aau_dwh.Grades (
+	GradeID SERIAL PRIMARY KEY, 
+	StudentID TEXT REFERENCES aau_dwh.Student(Matno),
+	CourseID TEXT REFERENCES aau_dwh.Course(CourseID),
+	LecturerID TEXT REFERENCES aau_dwh.Lecturer(LecturerID),
+	StudyPlanID TEXT REFERENCES aau_dwh.StudyPlan(StudyPlanID),
+	TimeID INT REFERENCES aau_dwh.Time(TimeID),
+    Grade INT 
+);
